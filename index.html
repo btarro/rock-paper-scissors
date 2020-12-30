@@ -10,16 +10,25 @@
 </head>
 
 <body>
-    <div>
-        <button class=btn id="rock">
-            <img id="rock" src="images/rock.png" />
-        </button>
-        <button class=btn id="paper">
-            <img id="paper" src="images/paper.png" />
-        </button>
-        <button class=btn id="scissors">
-            <img id="scissors" src="images/scissors.png" />
-        </button>
+    <div id=gameContainer>
+        <div id=gameTitle>
+            <h1>Rock, Paper, Scissors, Simple.</h>
+        </div>
+        <br>
+        <div id=gameObjects>
+            <button class=btn id="rock">
+                <img class=btn id="rock" src="images/rock.png" />
+            </button>
+            <button class=btn id="paper">
+                <img class=btn id="paper" src="images/paper.png" />
+            </button>
+            <button class=btn id="scissors">
+                <img class=btn id="scissors" src="images/scissors.png" />
+            </button>
+        </div>
+        <p id=verbal></p>
+        <p id=gameStatus>Choose Rock, Paper, or Scissors!</p>
+        <button class="hidePlayAgain" id="playAgain">Play Again?</button>
     </div>
 
     <script src=app.js></script>

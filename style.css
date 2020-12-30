@@ -1,8 +1,65 @@
 body {
-    background-color: #333333;
+    background-color: rgb(117, 117, 117);
+    color:whitesmoke;
+    font-family: ubuntu;
+    height: 80%;
 }
 
-div {
-    margin: auto;
-    width: 60%;
+h1 {
+    text-align: center;
+}
+
+h2 {
+    padding-right: 20px;
+}
+
+#gameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#gameObjects {
+    display: flex;
+    flex-direction: row;
+}
+
+.hidePlayAgain {
+    visibility: hidden;
+}
+
+.showPlayAgain {
+    background: none;
+    border: solid 1px #fff;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    color: whitesmoke;
+    outline: none;
+}
+
+.btn {
+    height: 80px;
+    background: none;
+    border: none;
+    outline: none;
+    filter: invert();
+}
+
+.btnActionPlayer {
+    filter: invert(75%);
+    filter: drop-shadow(10px 10px 10px orange);
+}
+
+.btnActionOpp {
+    filter: invert(75%);
+    filter: drop-shadow(10px 10px 10px purple);
+
+}
+
+.heroFlex {
+    font-size:x-large;
+
 }
