@@ -1,22 +1,30 @@
 // Rock, Paper, Scissors, Simple.
 
-// 
-
-
-var rock;
-var paper;
-var scissors;
-
+// Constants and variables
 const gameObjects = ["rock", "paper", "scissors"];
+var playerValue;
+var opponentValue;
 
-var playerValue = gameObjects[Math.floor(Math.random() * gameObjects.length)];
+// Listen for player choice
+document.getElementById("rock").addEventListener('click', findWinner);
+document.getElementById("paper").addEventListener('click', findWinner);
+document.getElementById("scissors").addEventListener('click', findWinner);
 
-var opponentValue = gameObjects[Math.floor(Math.random() * gameObjects.length)];
 
-console.log(playerValue);
-console.log(opponentValue);
 
-console.log(playerValue + opponentValue);
+// Game Logic
+function findWinner(e) {
 
-// Next session - Let's combine to make win/lose/draw variables
+    playerValue = e.target.id;
+    opponentValue = gameObjects[Math.floor(Math.random() * gameObjects.length)];
+
+    console.log("You: " + playerValue);
+    console.log("CPU: " + opponentValue);
+
+    (playerValue == opponentValue) ? console.log("DRAW")
+        : (playerValue == "rock" && opponentValue == "scissors") ? console.log("YOU WIN")
+            : (playerValue == "paper" && opponentValue == "rock") ? console.log("YOU WIN")
+                : (playerValue == "scissors" && opponentValue == "paper") ? console.log("YOU WIN")
+                    : console.log("YOU LOSE");
+};
 

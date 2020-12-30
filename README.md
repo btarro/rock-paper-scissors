@@ -9,4 +9,4 @@
 <!-- ## Summary -->
 <!-- TBD -->
 ## Author
-Bruce Tarro - Aspiring Software Developer [LinkedIn](https://www.linkedin.com/in/bruce-tarro/) | Personal Website - Comming Soon!
+Bruce Tarro - Aspiring Software Developer [LinkedIn](https://www.linkedin.com/in/bruce-tarro/) | Personal Website
