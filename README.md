@@ -12,4 +12,4 @@ This game was written using basic HTML, CSS, and JavaScript (no libraries). My i
 In the future I'd like to shift this project to take advantage of HTML canvas with a touch of animation.
 
 ## Author
-Bruce Tarro - Full Stack Developer [LinkedIn](https://www.linkedin.com/in/bruce-tarro/) | Personal Website, comming soon ~ 
+Bruce Tarro - Full Stack Developer [LinkedIn](https://www.linkedin.com/in/bruce-tarro/) | Personal Website - comming soon
