@@ -4,18 +4,18 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Rock, Paper, Scissors, Simple </title>
+    <title>Rock, Paper, Scissors, Simple. </title>
     <link rel="stylesheet" href="style.css">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=cyrillic,latin' rel='stylesheet' type='text/css' />
 </head>
 
 <body>
-    <div id=gameContainer>
-        <div id=gameTitle>
+    <div id=game-container>
+        <div>
             <h1>Rock, Paper, Scissors, Simple.</h>
         </div>
         <br>
-        <div id=gameObjects>
+        <div id=game-objects>
             <button class=btn id="rock">
                 <img class=btn id="rock" src="images/rock.png" />
             </button>
@@ -26,11 +26,11 @@
                 <img class=btn id="scissors" src="images/scissors.png" />
             </button>
         </div>
-        <p id=verbal></p>
-        <p id=gameStatus>Choose Rock, Paper, or Scissors!</p>
-        <button class="hidePlayAgain" id="playAgain">Play Again?</button>
+        <br>
+        <p id=status-info>Choose Rock, Paper, or Scissors!</p>
+        <p id=outcome></p>
+        <button class="hidden-play-again" id="play-again">Play Again?</button>
     </div>
-
     <script src=app.js></script>
 </body>
 

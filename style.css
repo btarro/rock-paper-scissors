@@ -1,65 +1,63 @@
 body {
-    background-color: rgb(117, 117, 117);
-    color:whitesmoke;
-    font-family: ubuntu;
-    height: 80%;
+  background-color: rgb(117, 117, 117);
+  color: whitesmoke;
+  font-family: ubuntu;
+  height: 80%;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
-#gameContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+#game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-#gameObjects {
-    display: flex;
-    flex-direction: row;
+#game-objects {
+  display: flex;
+  flex-direction: row;
 }
 
-.hidePlayAgain {
-    visibility: hidden;
+.hidden-play-again {
+  visibility: hidden;
 }
 
-.showPlayAgain {
-    background: none;
-    border: solid 1px #fff;
-    border-radius: 8px;
-    padding: 10px 20px 10px 20px;
-    font-size: 20px;
-    color: whitesmoke;
-    outline: none;
+.show-play-again {
+  background: none;
+  border: solid 1px #fff;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  color: whitesmoke;
+  outline: none;
 }
 
 .btn {
-    height: 80px;
-    background: none;
-    border: none;
-    outline: none;
-    filter: invert();
+  height: 80px;
+  background: none;
+  border: none;
+  outline: none;
+  filter: invert();
 }
 
-.btnActionPlayer {
-    filter: invert(75%);
-    filter: drop-shadow(10px 10px 10px orange);
+.btn-action-player {
+  filter: invert(75%);
+  filter: drop-shadow(10px 10px 10px orange);
 }
 
-.btnActionOpp {
-    filter: invert(75%);
-    filter: drop-shadow(10px 10px 10px purple);
-
+.btn-action-opp {
+  filter: invert(75%);
+  filter: drop-shadow(10px 10px 10px purple);
 }
 
-.heroFlex {
-    font-size:x-large;
-
+.status-flaunt {
+  font-size: 48px;
 }
